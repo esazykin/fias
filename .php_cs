@@ -2,6 +2,7 @@
 
 $finder = PhpCsFixer\Finder::create()
     ->exclude('vendor')
+    ->in(__DIR__.'/database')
     ->in(__DIR__.'/src')
     ->name('*.php')
     ->ignoreDotFiles(true)
